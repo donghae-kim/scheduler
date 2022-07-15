@@ -1,7 +1,7 @@
 :root{
     --light-gray: #f4f4f4;
     --main-blue: #4aa8d8;
-    --dark-grey: #606060;
+    --dark-gray: #606060;
 }
 
 * {
@@ -92,12 +92,12 @@ header {
     font-size: 1.2rem;
     line-height: 2;
     background-color:  var(--light-gray);
-    border: 1px solid var(--dark-grey); 
+    border: 1px solid var(--dark-gray); 
     cursor: pointer;
 }
 
 .dropdown-content button:hover {
-    background-color: var(--dark-grey);
+    background-color: var(--dark-gray);
     color: white;
 }
 

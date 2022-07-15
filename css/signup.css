@@ -30,7 +30,7 @@ main {
     font-size: 1.6rem;
     line-height: 2;
     padding-left: 1rem;
-    border: 3px solid var(--dark-grey);
+    border: 3px solid var(--dark-gray);
 }
 
 .message {
