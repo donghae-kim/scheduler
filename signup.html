@@ -32,13 +32,13 @@
         <div class="inner">
             <div class="header-container">
                 <div class="title">
-                    <a href="#">동해일정</a>
+                    <a href="index.html">동해일정</a>
                 </div>
                 <!-- title -->
                 <div class="sign-container">
                     <div class="unsigned ">
-                        <div class="sign-in"><a href="#">로그인</a></div>
-                        <div class="sign-up"><a href="#">회원가입</a></div>
+                        <div class="sign-in"><a href="signin.html">로그인</a></div>
+                        <div class="sign-up"><a href="signup.html">회원가입</a></div>
                     </div>
                     <!-- unsigned -->
                     <div class="signed hidden">
@@ -69,10 +69,10 @@
                     <input type="text" placeholder="이메일" id="email"/>
                     <div class="email-message message">이메일 형식으로 입력해주세요</div>
                     <input type="password" placeholder="비밀번호" id="password">
-                    <div class="password-message message">영문,숫자,특수문자 조합 8자 이상 입력</div>
+                    <div class="password-message message">6자~20자 영문,숫자 조합 입력</div>
                     <input type="password" placeholder="비밀번호 확인" id="password-confirm">
                     <div class="password-confirm-message message">비밀번호가 일치하지 않습니다.</div>
-                    <input type="text" value="닉네임" id="nickname"/>
+                    <input type="text" placeholder="닉네임" id="nickname"/>
                     <div class="nickname-message message">한글 or 영어 2-10자로 설정해주세요</div>
                     <input type="button" value="회원가입" id="signup"/>
                     <div class="signup-container">
@@ -95,5 +95,7 @@
             <!-- footer-container -->
         </div>
     </footer>
+    <script src="./js/common.js"></script>
+    <script src="./js/signup.js"></script>
 </body>
 </html>
