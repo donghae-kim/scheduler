@@ -25,7 +25,7 @@
     />
     <link rel="stylesheet" href="css/header.css"/>
     <link rel="stylesheet" href="css/footer.css"/>
-    <link rel="stylesheet" href="css/signup.css"/>
+    <link rel="stylesheet" href="css/signin.css"/>
 </head>
 <body>
     <header>
@@ -37,8 +37,8 @@
                 <!-- title -->
                 <div class="sign-container">
                     <div class="unsigned ">
-                        <div class="sign-in"><a href="signin.html">로그인</a></div>
-                        <div class="sign-up"><a href="signup.html">회원가입</a></div>
+                        <div class="sign-in"><a href="signin.html" >로그인</a></div>
+                        <div class="sign-up"><a href="signup.html" >회원가입</a></div>
                     </div>
                     <!-- unsigned -->
                     <div class="signed hidden">
@@ -63,26 +63,20 @@
 
     <main>
         <div class="inner">
-            <div class="signup-container">
+            <div class="signin-container">
                 <h1>안녕하세요. <span class="blue">동해일정</span>입니다.</h1>
-                <div class="signup-form">
+                <div class="signin-form">
                     <input type="text" placeholder="이메일" id="email"/>
-                    <div class="email-message message">이메일 형식으로 입력해주세요</div>
                     <input type="password" placeholder="비밀번호" id="password">
-                    <div class="password-message message">6자~20자 영문,숫자 조합 입력</div>
-                    <input type="password" placeholder="비밀번호 확인" id="password-confirm">
-                    <div class="password-confirm-message message">비밀번호가 일치하지 않습니다.</div>
-                    <input type="text" placeholder="닉네임" id="nickname"/>
-                    <div class="nickname-message message">한글 or 영어 2-10자로 설정해주세요</div>
-                    <input type="button" value="회원가입" id="signup"/>
+                    <input type="button" value="로그인" id="signin"/>
                     <div class="signup-container">
-                        <!-- <a href="#" id="signup">회원가입</a> -->
+                        <a href="#" id="signup">회원가입</a>
                     </div>
                     <!-- signup-container -->
                 </div>
-                <!-- signup-form -->
+                <!-- signin-form -->
             </div>
-            <!-- signup-container -->
+            <!-- signin-container -->
         </div>
     </main>
     
@@ -95,7 +89,15 @@
             <!-- footer-container -->
         </div>
     </footer>
+
+    <!-- axios cdn -->
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" 
+    integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+    </script>
     <script src="./js/common.js"></script>
-    <script src="./js/signup.js"></script>
+    <script src="./js/signin.js"></script>
 </body>
 </html>

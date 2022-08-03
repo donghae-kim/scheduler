@@ -1,9 +1,9 @@
-const mysql = require("mysql2/promise");
+exports.jwtSecret = "hadsome-donghae";
 
-exports.pool = mysql.createPool({
+exports.databaseSecret = {
     host: "www.kimdonghae.shop",
     user: "dummy-client",
     port: "3306",
     password: "3588",
     database:"MyTodoDB"
-});
+}
