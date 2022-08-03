@@ -3,7 +3,7 @@ const token = localStorage.getItem("x-access-token");
 
 if(token){
     alert("로그아웃 후 이용해주세요.");
-    location.href = "index.html";
+    location.href = "./index.html";
 }
 
 // 토큰 검사 종료
