@@ -1,4 +1,4 @@
-const indexController = require("../controller/indexcontroller");
+const indexController = require("../controller/indexController");
 const {jwtMiddleware} = require("../../jwtMiddleware");
 exports.indexRouter = function(app){
     // 일정 CRUD API

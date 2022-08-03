@@ -1,1 +1,0 @@
-const url = "https://www.kimdonghae.shop";
