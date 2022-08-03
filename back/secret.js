@@ -1,4 +1,4 @@
-exports.jwtSecret = "hadsome-donghae";
+exports.jwtSecret = "handsome-donghae";
 
 exports.databaseSecret = {
     host: "www.kimdonghae.shop",
