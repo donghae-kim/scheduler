@@ -10,6 +10,11 @@ const port = 3000;
 
 /*express 미들웨어 설정*/
 
+//정적 파일 제공 프론트 정적파일 쓰려고
+app.use(express.static("../front"));
+
+
+
 //cors 설정 - 허가된애들만 쓰게할거야 지금은 모두에게 개방함(보안느슨)
 app.use(cors());
 
