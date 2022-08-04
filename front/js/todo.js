@@ -69,6 +69,7 @@ matrixContainer.addEventListener("click",cudController);
 function cudController(event){
     const token = localStorage.getItem("x-access-token");
     if(!token){
+        alert("로그인이 필요합니다.");
         return;
     }
     
